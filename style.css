@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: white;
+  background: black;
   font-family: 'Crimson Text', serif;
 }
 
@@ -29,6 +29,8 @@ body {
 
 .container {
   margin: 0 auto;
+  background-color: white;
+  padding-bottom: 80px;
 }
 
 .parallax-window {
@@ -51,19 +53,19 @@ body {
 a.header-btn-a {
   display: inline-block;
   padding: 0.35em 1.2em;
-  border: 0.1em solid #FFFFFF;
+  border: 0.1em solid white;
   border-radius: 0.12em;
   box-sizing: border-box;
   text-decoration: none;
   font-weight: 300;
-  color: #FFFFFF;
+  color: white;
   text-align: center;
   transition: all 0.2s;
 }
 
 a.header-btn-a:hover {
-  color: #000000;
-  background-color: #FFFFFF;
+  color: black;
+  background-color: white;
 }
 
 @media all and (max-width:30em) {
@@ -102,7 +104,6 @@ div.text-container-2 {
 div.body-info {
   display: flex;
   padding: 0px 250px;
-  margin-bottom: 100px;
 }
 
 .body-info div {
@@ -147,7 +148,7 @@ div.body-info-list {
 
 .footer {
   height: 30px;
-  background-image: url('assets/background/dark-leaves.jpeg');
+  background-color: black;
 }
 
 .footer-text {
