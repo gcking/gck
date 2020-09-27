@@ -131,12 +131,18 @@ ul {
 
 li {
   list-style: none;
-  margin: 4px 0px;
-  padding: 4px;
+  padding-left: 12px;
+  margin: 8px;
+  position: relative;
 }
 
 li::before {
-  content: '\00BB';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+  display: block;
+  content: '\25B8';
   margin-right: 4px;
 }
 
